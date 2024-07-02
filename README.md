@@ -1,4 +1,4 @@
-# XARELLO: eXploring Adversarial examples using REinforcement Learning Optimisation
+# 🍷 XARELLO: eXploring Adversarial examples using REinforcement Learning Optimisation
 
 This repository contains the XARELLO ...
 
