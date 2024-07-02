@@ -1,4 +1,4 @@
-# 🍷 XARELLO: eXploring Adversarial examples using REinforcement Learning Optimisation🍷
+# 🍷 XARELLO: eXploring Adversarial examples using REinforcement Learning Optimisation
 
 This repository contains the code of XARELLO: a solution for finding adversarial examples and thus testing the robustness of text classifiers,
 especially in the tasks of misinformation detection. Unlike other solutions, XARELLO is *adaptive*, i.e. it observes the responses from the
@@ -34,6 +34,8 @@ pip install fasttext
 Note that BODEGA source will have to be in your PYTHONPATH for XARELLO to run properly.
 
 ## Usage
+
+In order to train a XARELLO model, you will need to run the `main-train-eval.py` script.
 
 ## Licence
 
