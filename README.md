@@ -1,8 +1,11 @@
-# 🍷 XARELLO: eXploring Adversarial examples using REinforcement Learning Optimisation
+#🍷 XARELLO: eXploring Adversarial examples using REinforcement Learning Optimisation
 
-This repository contains the XARELLO ...
+This repository contains the code of XARELLO: a solution for finding adversarial examples and thus testing the robustness of text classifiers,
+especially in the tasks of misinformation detection. Unlike other solutions, XARELLO is *adaptive*, i.e. it observes the responses from the
+victim classifier and learns, which attacks are succesfull in changing its decisions. This adaptation process is performed using the
+reinforcement learning, implemented as Q-learning with Transformer-based Q estimator.
 
-The full description of the benchmark is available in the article [Verifying the Robustness of Automatic Credibility Assessment](TODO),
+The full description of the solution, including the evaluation results, is available in the article [Verifying the Robustness of Automatic Credibility Assessment](TODO),
 presented at the [WASSA](https://workshop-wassa.github.io) workshop at ACL 2024. 
 
 The research was done within the [ERINIA](https://www.upf.edu/web/erinia) project realised at the
