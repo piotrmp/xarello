@@ -31,11 +31,14 @@ pip install peft bitsandbytes accelerate
 pip install gymnasium
 pip install fasttext
 ```
-Note that BODEGA source will have to be in your PYTHONPATH for XARELLO to run properly.
+Note that (1) if you're not using your own data or victim models, you can download the [resources](https://gitlab.com/checkthat_lab/clef2024-checkthat-lab/-/tree/main/task6?ref_type=heads) prepared for the [InCrediblAE shared task](https://checkthat.gitlab.io/clef2024/task6/) and (2) BODEGA source will have to be in your PYTHONPATH for XARELLO to run properly.
 
 ## Usage
 
-In order to train a XARELLO model, you will need to run the `main-train-eval.py` script.
+In order to train a XARELLO model, you will need to run the `main-train-eval.py` script. It takes three arguments: task identifier, victim model type (both as in BODEGA)
+and output path (for performance plots and trained model). If your data are not in `~/data/BODEGA/<TASK-ID>`, you will have to adjust the paths in the script.
+
+In order to test the performance of a XARELLO attack, you will need to run the `evaluation/attack.py` script. See the beginning of the script for the variables it takes.
 
 ## Licence
 
