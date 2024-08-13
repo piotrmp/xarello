@@ -5,7 +5,7 @@ especially in the tasks of misinformation detection. Unlike other solutions, XAR
 victim classifier and learns, which attacks are succesfull in changing its decisions. This adaptation process is performed using
 reinforcement learning, implemented as Q-learning with Transformer-based Q estimator.
 
-The full description of the solution, including the evaluation results, is available in the article [Verifying the Robustness of Automatic Credibility Assessment](TODO),
+The full description of the solution, including the evaluation results, is available in the article [Verifying the Robustness of Automatic Credibility Assessment](https://aclanthology.org/2024.wassa-1.11/),
 presented at the [WASSA](https://workshop-wassa.github.io) workshop at ACL 2024. 
 
 The research was done within the [ERINIA](https://www.upf.edu/web/erinia) project realised at the
